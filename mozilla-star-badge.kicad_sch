@@ -566,7 +566,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Battery:BatteryHolder_Keystone_3002_1x2032"
+		(property "Footprint" "badge:BAT-HLD-001"
 			(at 82.55 87.376 90)
 			(effects
 				(font
