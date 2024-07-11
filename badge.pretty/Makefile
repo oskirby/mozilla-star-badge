@@ -7,8 +7,5 @@ FACTOR ?= 0.39
 	svg2mod $(SVG2MOD_ARGS) --factor $(FACTOR) \
 		-i $< -o $@ --name $(*F) --value $(*F)
 
-# Graphics assets
-mozilla-lizard-star-logo.kicad_mod: mozilla-lizard-star-logo.svg
-
-all: badge.pretty/mozilla-lizard-star-logo.kicad_mod
+all: mozilla-lizard-star-logo.kicad_mod names.kicad_mod
 
