@@ -79,25 +79,25 @@
 			)
 		)
 	)
-	(pad "1" smd circle
-		(at 0 0)
-		(size 17 17)
-		(layers "F.Cu" "F.Mask")
-		(uuid "1739b3fa-518b-4b48-9d26-deb1b26d5142")
-	)
-	(pad "2" smd roundrect
+	(pad "1" smd roundrect
 		(at -11 0)
 		(size 1.8 5.8)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.1388888889)
 		(uuid "9157a6fc-0fe3-4b6e-9ce2-2982e219df55")
 	)
-	(pad "2" smd roundrect
+	(pad "1" smd roundrect
 		(at 11 0)
 		(size 1.8 5.8)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.1388888889)
 		(uuid "fe179ac1-9d9a-4c29-97d5-b3a201844e42")
+	)
+	(pad "2" smd circle
+		(at 0 0)
+		(size 17 17)
+		(layers "F.Cu" "F.Mask")
+		(uuid "1739b3fa-518b-4b48-9d26-deb1b26d5142")
 	)
 	(model "${KIPRJMOD}/badge.pretty/BAT-HLD-001.step"
 		(offset
